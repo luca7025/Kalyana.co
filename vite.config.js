@@ -5,14 +5,23 @@
 // export default defineConfig({
 //   plugins: [react()],
 // })
-export default {
+
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react'; // if using React
+
+export default defineConfig({
+  plugins: [react()],
   build: {
+    chunkSizeWarningLimit: 1000, // ✅ Increase limit to hide warning (optional)
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'], // example
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            // ✅ All vendor packages into a separate chunk
+            return 'vendor';
+          }
         },
       },
     },
   },
-};
+});
