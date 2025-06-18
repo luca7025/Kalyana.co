@@ -1,0 +1,38 @@
+[
+  {
+    "title": " Basic Wedding Shoot",
+    "price": "₹9,999",
+    "features": [
+      "Half-day coverage",
+      "1 photographer",
+      "100+ edited photos",
+      "Online photo gallery",
+      "Delivery within 7 days"
+    ]
+  },
+  {
+    "title": " Classic Wedding Package",
+    "price": "₹24,999",
+    "features": [
+      "Full-day coverage",
+      "2 photographers",
+      "300+ edited photos",
+      "Highlight video (3–5 min)",
+      "Premium album (20 pages)",
+      "Delivery within 14 days"
+    ]
+  },
+  {
+    "title": " Royal Wedding Experience",
+    "price": "₹49,999",
+    "features": [
+      "Full-day & pre-wedding shoot",
+      "2 photographers + 1 videographer",
+      "500+ edited photos",
+      "Cinematic video (15–20 min)",
+      "Premium leather album",
+      "Drone coverage",
+      "Delivery within 21 days"
+    ]
+  }
+]

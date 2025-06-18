@@ -1,0 +1,42 @@
+/* .contact-box ,
+.outlined-basic,
+ .button-send ,
+ .text-box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact-box {
+  text-align: center;
+  padding: 0 500px;
+} */
+
+.contact-section {
+  text-align: center;
+  padding: 0 500px;
+}
+.main{
+  display: flex;
+}
+.contactImg{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.contactImg .p{
+  font-family:  "Dancing Script", cursive;
+  font-size: 24px;
+  /* text-align: inherit; */
+  margin: 10px 50px;
+  text-align: center;
+}
+
+.handimg{
+  width: 75px;
+  height: 75px;
+filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.675));
+}

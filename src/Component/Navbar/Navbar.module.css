@@ -1,0 +1,107 @@
+/* NAVBAR CONTAINER */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  z-index: 3000;
+}
+
+/* INNER CONTAINER */
+.navContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+/* LOGO */
+.logo a {
+  font-size: 28px; /* Increased font size */
+  font-weight: bold;
+  text-decoration: none;
+  color: #f26201;
+}
+
+/* NAV LINKS */
+.navLinks {
+  display: flex;
+  gap: 24px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  color: #333;
+  font-weight: 600;
+  font-size: 18px; /* Increased font size */
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: #f26201;
+}
+
+/* HAMBURGER ICON */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 6px;
+  height: 24px;
+  width: 30px;
+}
+
+.bar,
+.bar1Active,
+.bar2Active,
+.bar3Active {
+  height: 3px;
+  background: #333;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* HAMBURGER TOGGLE ANIMATION */
+.bar1Active {
+  transform: rotate(45deg) translateY(9px);
+}
+.bar2Active {
+  opacity: 0;
+}
+.bar3Active {
+  transform: rotate(-45deg) translateY(-9px);
+}
+
+/* RESPONSIVE MENU */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navLinks {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  }
+
+  .navLinks.active {
+    display: flex;
+  }
+
+  .navLinks a {
+    font-size: 20px; /* Bigger font for touch devices */
+  }
+}

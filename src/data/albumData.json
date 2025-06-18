@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "title": "Anjali & Rahul",
+    "location": "Kochi, Kerala",
+    "description": "A romantic traditional wedding by the backwaters of Kochi.",
+    "date": "2023-12-10",
+    "coverImage": "../../public/Gallery/pic1.jpg",
+    "gallery": [
+      "/images/albums/anjali-rahul/1.jpg",
+      "/images/albums/anjali-rahul/2.jpg",
+      "/images/albums/anjali-rahul/3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Neha & Arjun",
+    "location": "Bangalore, Karnataka",
+    "description": "A fun-filled modern wedding with vibrant energy.",
+    "date": "2024-01-20",
+    "coverImage": "../../public/Gallery/pic2.jpg",
+    "gallery": [
+      "/images/albums/neha-arjun/1.jpg",
+      "/images/albums/neha-arjun/2.jpg",
+      "/images/albums/neha-arjun/3.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Sneha & Vinay",
+    "location": "Chennai, Tamil Nadu",
+    "description": "A colorful South Indian wedding with joy and rituals.",
+    "date": "2024-03-05",
+    "coverImage":"../../public/Gallery/pic3.jpg",
+    "gallery": [
+      "/images/albums/sneha-vinay/1.jpg",
+      "/images/albums/sneha-vinay/2.jpg",
+      "/images/albums/sneha-vinay/3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Riya & Manoj",
+    "location": "Trivandrum, Kerala",
+    "description": "Elegant Hindu wedding amidst temple traditions.",
+    "date": "2024-02-14",
+    "coverImage": "../../public/Gallery/pic4.jpg",
+    "gallery": [
+      "/images/albums/riya-manoj/1.jpg",
+      "/images/albums/riya-manoj/2.jpg",
+      "/images/albums/riya-manoj/3.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Aisha & Farhan",
+    "location": "Hyderabad, Telangana",
+    "description": "A grand Nikkah ceremony filled with grace and elegance.",
+    "date": "2024-04-15",
+    "coverImage": "../../public/Gallery/pic5.jpg",
+    "gallery": [
+      "/images/albums/aisha-farhan/1.jpg",
+      "/images/albums/aisha-farhan/2.jpg",
+      "/images/albums/aisha-farhan/3.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Divya & Raj",
+    "location": "Mumbai, Maharashtra",
+    "description": "Bollywood-style sangeet and vibrant celebration.",
+    "date": "2024-05-10",
+    "coverImage": "../../public/Gallery/pic6.jpg",
+    "gallery": [
+      "/images/albums/divya-raj/1.jpg",
+      "/images/albums/divya-raj/2.jpg",
+      "/images/albums/divya-raj/3.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Meera & Kiran",
+    "location": "Udaipur, Rajasthan",
+    "description": "A majestic palace wedding with royal charm.",
+    "date": "2024-06-02",
+    "coverImage":"../../public/Gallery/pic7.jpg",
+    "gallery": [
+      "/images/albums/meera-kiran/1.jpg",
+      "/images/albums/meera-kiran/2.jpg",
+      "/images/albums/meera-kiran/3.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Pooja & Adithya",
+    "location": "Mysore, Karnataka",
+    "description": "A cozy wedding with heritage vibes.",
+    "date": "2024-06-20",
+    "coverImage": "../../public/Gallery/pic8.jpg",
+    "gallery": [
+      "/images/albums/pooja-adithya/1.jpg",
+      "/images/albums/pooja-adithya/2.jpg",
+      "/images/albums/pooja-adithya/3.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Jasmine & Imran",
+    "location": "Calicut, Kerala",
+    "description": "A modern Nikah ceremony with heartfelt moments.",
+    "date": "2024-03-12",
+    "coverImage":"../../public/Gallery/pic9.jpg",
+    "gallery": [
+      "/images/albums/jasmine-imran/1.jpg",
+      "/images/albums/jasmine-imran/2.jpg",
+      "/images/albums/jasmine-imran/3.jpg"
+    ]
+  }
+]

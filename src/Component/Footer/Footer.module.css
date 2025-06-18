@@ -1,0 +1,125 @@
+footer {
+  background-color: #f5f5f6e4;
+  color: #000000;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+ p{
+    font-size: 24px;
+}
+.logoImg {
+  width: 250px;
+  height: 250px;
+}
+
+.insta {
+  padding: 5px;                /* Space between icon and border */
+  color: #E1306C;              /* Instagram icon color */
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;             /* Adjust icon size */
+  cursor: pointer;             /* Optional: pointer cursor */
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.insta:hover {
+  border-color: #E1306C;
+  color: #E1306C;
+  filter: drop-shadow(0 0 8px #E1306C);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.whatsapp {
+  padding: 5px;                
+  color: green;              
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;             
+  cursor: pointer;             
+  filter: drop-shadow(0 0 0 transparent);
+  transition: border-color 0.3s ease, color 0.3s ease, filter 0.3s ease;
+}
+
+.whatsapp:hover {
+  border-color: #7fe676;
+  color: #7fe676;
+  filter: drop-shadow(0 0 10px #7fe676);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+.gmail {
+  padding: 5px;                
+  color: #D14836;              /* Gmail icon color */
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;             
+  cursor: pointer;             
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.gmail:hover {
+  border-color: #a7362b;       /* Darker red on hover */
+  color: #a7362b;
+  filter: drop-shadow(0 0 8px #D14836);
+  transform: scale(1.1);
+}
+
+.youtube {
+  padding: 5px;
+  color: #FF0000;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+}
+
+.youtube:hover {
+  border-color: #cc0000;
+  color: #cc0000;
+  filter: drop-shadow(0 0 8px #FF0000);
+  transform: scale(1.1);
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.linkmenu{
+    text-decoration: none !important;
+    color: #000000 !important;
+}

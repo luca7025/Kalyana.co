@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Arya Menon",
+    "review": "Absolutely loved the service! The team was professional and friendly.",
+    "rating": 5,
+    "photo": "../../public/Gallery/pic1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rahul Dev",
+    "review": "Beautiful work. Everything was well organized and smooth.",
+    "rating": 4,
+    "photo": "../../public/Gallery/pic2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sneha Pillai",
+    "review": "Highly recommended. They made our event truly memorable.",
+    "rating": 5,
+    "photo": "../../public/Gallery/pic4.jpg"
+  }
+]
